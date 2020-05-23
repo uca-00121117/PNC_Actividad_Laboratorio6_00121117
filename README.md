@@ -1,7 +1,9 @@
 # PNC_Laboratorio_6
 
 # Imagenes 
+## Inicio
   ![inicio](https://github.com/00121117-Archivos/PNC-Archivos/blob/master/Labo6/inicio.png)
+## Listado
   ![lista](https://github.com/00121117-Archivos/PNC-Archivos/blob/master/Labo6/lista.png)
 
 # Instrucciones
