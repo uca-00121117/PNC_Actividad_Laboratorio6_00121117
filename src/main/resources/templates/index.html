@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html xmlms:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<link rel="stylesheet" th:href="@{/style.css}">
+<title>Agregar Estudiantes</title>
+</head>
+<body>
+<div class="Global">
+	<div class="tarjeta">
+		<form th:action="@{/formEstudiante}" th:object="${estudiante}" method="post">
+		<h1><b>Ingresar Estudiante</b></h1>
+		<div class="formulario-contenido">
+			<h3><b>Nombre :</b></h3><br>
+			<input type="text" th:field="${estudiante.nombre}"><br>
+			<span th:errors="${estudiante.nombre}" style="color:red;"></span><br>
+			
+			<h3><b>Apellido:</b></h3><br>
+			<input type="text" th:field="${estudiante.apellido}"><br>
+			<span th:errors="${estudiante.apellido}" style="color:red;"></span><br>
+			
+			<h3><b>Carne:</b></h3><br>
+			<input type="number" th:field="${estudiante.carne}"><br>
+			<span th:errors="${estudiante.carne}" style="color:red;"></span><br>
+			
+			<h3><b>Carrera:</b></h3><br>
+			<input type="text" th:field="${estudiante.carrera}"><br>
+			<span th:errors="${estudiante.carrera}" style="color:red;"></span><br><br>
+		</div>
+		<input type="submit" value="Agregar estudiante">
+		<a href="/listado" style="text-decoration:none;">Ver todos los estudiantes</a>
+	</form>
+		<form th:action="@{/deleteEstudiante}"  th:method="post">
+		<div class="formulario-contenido">
+			<h3><b>Borrar estudiante por codigo:</b></h3><br>
+			<input class="borrarinput" type="number"  name="codigo" value="0">
+			<input type="submit" value="Borrar estudiante">
+			<span style="color:red;"></span><br>
+			
+		</div>
+	</form>
+
+	</div>
+</div>
+</body>
+</html></html>
