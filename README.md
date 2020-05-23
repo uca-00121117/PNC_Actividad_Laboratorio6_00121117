@@ -5,7 +5,12 @@
   ![lista](https://github.com/00121117-Archivos/PNC-Archivos/blob/master/Labo6/lista.png)
 
 # Instrucciones
+## Actividad Laboratorio 6
+Usando la Tarea de Laboratorio 5, implementar el botón Borrar estudiante por código. 
 
+
+El botón deberá eliminar a un estudiante ingresando el código del estudiante que se quiere eliminar y mostrar el listado actualizado.
+### Instrucciones Laboratorio 5
 ![](https://github.com/00121117-Archivos/PNC-Archivos/blob/master/Labo6/5-01.jpg)
 ![](https://github.com/00121117-Archivos/PNC-Archivos/blob/master/Labo6/5-02.jpg)
 ![](https://github.com/00121117-Archivos/PNC-Archivos/blob/master/Labo6/5-03.jpg)
